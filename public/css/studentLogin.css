@@ -1,0 +1,101 @@
+
+.form-container{
+    width: 100%;
+    min-height: calc(100vh - 12rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 50%;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid #a29e9e;
+    
+}
+
+.login{
+    height: 3.5rem;
+
+    background-color: rgb(211, 226, 237);
+    border: 1px solid rgb(189, 202, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.login h3{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+/* .button{
+    padding: .3rem .4rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 2px;
+} */
+
+.form-control{
+    width:100%;
+    padding: .8rem 1rem;
+    display: flex;
+    border: none;
+}
+
+.form-control label{
+    padding: 0 1.5rem 0;
+    align-content: start;
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+a{
+    margin: 2rem 0 0 5rem;
+}
+
+
+select,input{
+    flex:2;
+    outline: none;
+    border:1px solid grey;
+    padding:.5rem .4rem;
+    border-radius:.3rem;
+    
+}
+
+.fields{
+    padding: 1rem 0 1.4rem 0;
+}
+
+
+
+.forget{
+    text-align: center;
+    font-size: .8rem;
+    padding: .7rem .3rem;
+}
+p{
+margin-bottom:0;
+
+}
+
+
+main{    
+    margin-bottom: 1rem;
+}
+
+#error{
+    text-align: center;
+    color: #cb2828;
+    font-size: 1.2rem;
+    font-family: revert;
+    padding-top: 1rem;
+}
+
+#new{
+    text-align: center;
+    color: blue;
+}

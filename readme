@@ -1,0 +1,10 @@
+1) JWT is used for Authentication and Authorization
+2) Bcrypt is used for Encryption and Decryption
+3) Cookie usage for Storing JWT and User role.
+4) Router Protection
+5) Error Page Handling
+6) Utilizing Sequelize ORM with MySQL
+7) Implementing a View Engine (EJS)
+8) Using Express EJS Layout
+9) Structing application URLs with ‘express.Router()’
+10) Creating backend APIs and calling them using the ‘fetch()’ function

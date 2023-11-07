@@ -1,0 +1,44 @@
+<main>
+<a href="/" class="btn btn-success back">Back </a>
+    <div class="form-container">
+    <form action="/api/auth/signupTeacher" id="TeacherSignup" action="/teacher/viewpanel" method="post">
+    
+        <div class="login">
+            <h3>Teacher SignUp</h3>
+        </div>
+       
+        <p id="error"></p>
+        
+        <div class="fields">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+
+            <div class="form-control">
+                <label for="name">name</label>
+                <input type="text" id="name" name="name">
+            </div>
+        
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="form-control">
+                <label for="Repassword">Re-password</label>
+                <input type="password" id="Repassword" name="Repassword">
+            </div>
+        </div>
+    
+        <div class="login">
+            <button class="btn btn-success" type="submit">SignUp</button>
+        </div>
+       
+        <p id="new">Already has an account? <a href="/teacher/login">login</a> </p>
+    </form>
+</div>
+    
+</main>
+
+<script src="/js/signupTeacher.js"></script>

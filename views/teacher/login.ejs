@@ -1,0 +1,41 @@
+<main>
+<a href="/" class="btn btn-success back">Back </a>
+    <div class="form-container">
+    <form id="TeacherLogin" action="/teacher/viewpanel" method="post">
+    
+        <div class="login">
+            <h3>Teacher Login</h3>
+        </div>
+        
+        
+        <p id="error"><%= error %></p>
+     
+        
+        <div class="fields">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+        
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password">
+            </div>
+        </div>
+
+            <div class="login">
+                <button class="btn btn-primary" type="submit">Login</button>
+            </div>
+        
+            <!-- <div class="login">
+                <button class="btn btn-success" (click)="handleSubmitForTeach()">Login</button>
+            
+            </div> -->
+        
+        <p id="new">New user? <a href="/teacher/signup">SignUp</a> </p>
+        </form>
+    </div>
+</main>
+
+    <script src="/js/loginTeacher.js"></script>
+    

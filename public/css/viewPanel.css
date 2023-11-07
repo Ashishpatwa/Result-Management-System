@@ -1,0 +1,88 @@
+
+.welcome{
+    flex-basis:13rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome p{
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+form{
+    margin-top: 1.6rem;
+    display: inline;
+}
+
+form .product{
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    width:30%;
+    padding: .6rem 0;
+    display: flex;
+}
+
+.form-control label{
+    padding: 0 1.5rem 0;
+    align-content: start;
+    flex: 1;
+}
+
+
+input[class="submit"]{
+    width: auto;
+    height: auto;
+    padding: .4rem 1.4rem;
+    margin-left: 1.6rem;
+}
+.header{
+    margin-top: 3rem;
+}
+table{
+   width: 92%;
+  margin:  1rem auto 4rem auto;
+
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding: 1rem;
+}
+tr{
+    text-align: center;
+}
+
+tr img{
+    width: 50%;
+    object-fit:cover;
+
+}
+
+#notable{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 10%;
+    color: red;
+    visibility: none;
+}
+
+
+main{
+    min-height: calc(100vh - 7.8rem);
+}
+p{
+margin-bottom:0;
+}
+.centr{
+display:flex;
+align-items:center;
+justify-content:center;
+}

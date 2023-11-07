@@ -1,0 +1,17 @@
+
+.mainContent{
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.linkContent{
+    width: 2rem;
+}
+.heading{
+    text-align: center;
+    margin-top: 3.2rem;
+    font-size: 2rem;
+    color: #373636;
+    font-family: sans-serif;
+}

@@ -1,0 +1,29 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color:#55c78b;
+}
+header h1{
+    flex: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 0;
+}
+
+
+footer {
+    padding:.6rem;
+	background-color: #f0f0f0;
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	background-color:#e6e6e6;
+}
